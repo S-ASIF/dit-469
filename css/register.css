@@ -1,0 +1,102 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* Element/Name selector */
+body{
+    background-color: whitesmoke;
+
+}
+/* Id selector */
+.box{
+    max-width: 500px;
+    background-color:white ;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 6px black,-3px -3px 6px black;
+    position: relative;
+
+}
+.fa-brands{
+    font-size: 70px;
+    color: blue;
+    margin: 20px;
+}
+#hd{
+    text-shadow: 5px 5px 5px;
+}
+.f-head{
+    font-size: 40px;
+}
+label,input{
+    font-size: 25px;
+}
+input{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+input:hover{
+    background-color: transparent;
+}
+.link{
+    font-size: 35px;
+    width: 400px;
+    background-color: blue;
+    color: white;
+}
+.link:hover{
+    color: red;
+    background-color: whitesmoke;
+}
+/* login link element */
+.link1{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+}
+.link1:hover{
+    color: red;
+    
+}
+.link2{
+    background-color: green;
+    color: white;
+    width: 350px;
+}
+.link2:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+/* forgot Element  */
+.hed{
+    font-size: 50px;
+    margin: 30px;
+    color: blue;
+    text-shadow: 3px 2px 3px;
+}
+.box1{
+    max-width: 100%;
+    height: 100%;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.send{
+    font-size: 35px;
+    width: 400px;
+    background-color: blue;
+    color: white;
+}
+.send:hover{
+    color: red;
+    background-color: whitesmoke;
+}
